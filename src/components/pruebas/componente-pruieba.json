@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_pruebas_componente_pruiebas",
+  "info": {
+    "displayName": "componente pruieba",
+    "icon": "angry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "published": {
+      "type": "date"
+    },
+    "componentePrueba2": {
+      "displayName": "componente prueba 2",
+      "type": "component",
+      "repeatable": false,
+      "component": "pruebas.componente-prueba-2"
+    },
+    "componentelateral": {
+      "displayName": "componente3",
+      "type": "component",
+      "repeatable": true,
+      "component": "pruebas.componente3"
+    }
+  }
+}

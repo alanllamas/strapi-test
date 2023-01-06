@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "pruebas",
+  "info": {
+    "singularName": "prueba",
+    "pluralName": "pruebas",
+    "displayName": "prueba",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "descripcion": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "show": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "default": true
+    },
+    "component": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "pruebas.componente-pruieba"
+      ]
+    }
+  }
+}

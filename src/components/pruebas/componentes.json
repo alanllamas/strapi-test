@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pruebas_componentes",
+  "info": {
+    "displayName": "componentes",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "componente3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pruebas.componente3"
+    }
+  }
+}

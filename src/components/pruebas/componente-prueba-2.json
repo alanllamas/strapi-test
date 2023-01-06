@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pruebas_componente_prueba_2s",
+  "info": {
+    "displayName": "componente prueba 2",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "sirve": {
+      "type": "text"
+    },
+    "numero": {
+      "type": "integer"
+    }
+  }
+}

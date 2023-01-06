@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_pruebas_componente3s",
+  "info": {
+    "displayName": "componente3",
+    "icon": "baseball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "textarea": {
+      "type": "richtext"
+    }
+  }
+}

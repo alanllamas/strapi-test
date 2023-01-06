@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_fullwidths",
+  "info": {
+    "displayName": "fullwidth",
+    "icon": "puzzle-piece",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "prueba2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pruebas.componente-prueba-2"
+    },
+    "pruebas3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pruebas.componente3"
+    },
+    "components": {
+      "type": "richtext"
+    },
+    "components2": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::fullwidth.fullwidth"
+    }
+  }
+}

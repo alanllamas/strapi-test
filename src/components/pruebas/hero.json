@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_pruebas_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "prueba": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pruebas.componente-prueba-2"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

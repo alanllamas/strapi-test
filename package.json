@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@bedu-tmp/betomic": "../bedu-tmp-betomic-v0.2.0-canary.5.tgz",
+    "@bedu-tmp/betomic": "0.2.0-canary.5",
     "@bedu-tmp/tailwind-base": "^0.1.0-canary.4",
     "@strapi/plugin-i18n": "4.5.0",
     "@strapi/plugin-users-permissions": "4.5.0",
